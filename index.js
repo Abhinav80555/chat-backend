@@ -42,7 +42,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://hcfdy4.csb.app",
+    origin: "https://chatap.vercel.app",
     // credentials: true,
   },
 });
